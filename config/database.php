@@ -16,7 +16,7 @@
 
 return [
     // 默认使用的数据库连接配置
-    'default'         => 'sqlite',
+    'default'         => 'mysql',
     // 自定义时间查询规则
     'time_query_rule' => [],
     // 自动写入时间戳字段
@@ -31,13 +31,13 @@ return [
             // 服务器地址
             'hostname'        => '127.0.0.1',
             // 数据库名
-            'database'        => 'admin_v6',
+            'database'        => 'live',
             // 用户名
-            'username'        => 'admin_v6',
+            'username'        => 'root',
             // 密码
-            'password'        => 'FbYBHcWKr2',
+            'password'        => '123456',
             // 端口
-            'hostport'        => '3306',
+            'hostport'        => '8889',
             // 数据库连接参数
             'params'          => [],
             // 数据库编码默认采用 utf8
